@@ -29,7 +29,7 @@
         />
 
     <RadioGroup
-        android:id="@+id/rgbClient"
+        android:id="@+id/rgpOptions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -42,7 +42,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/rbtProfessional"
-            android:onClick="onRadioButtonClicked"
             />
 
         <RadioButton
@@ -50,7 +49,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/rbtBusiness"
-            android:onClick="onRadioButtonClicked"
             />
 
     </RadioGroup>
@@ -62,7 +60,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rgbClient"
+        app:layout_constraintTop_toBottomOf="@id/rgpOptions"
         />
 
     <include
@@ -72,7 +70,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rgbClient"
+        app:layout_constraintTop_toBottomOf="@id/rgpOptions"
         />
 
 
